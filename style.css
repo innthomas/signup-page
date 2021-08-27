@@ -1,0 +1,34 @@
+.container{
+    width: 90%;
+    height: 90%;
+    border: 10%;
+    border-color: rgb(24, 216, 34);
+    margin: 0 auto;
+    /*background-color: rgb(24, 216, 34);*/
+}
+
+.column{
+    float: left;
+    width: 55%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+/* Clear floats after the columns */
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+h1{
+    color: blue;
+}
+
+.image{
+    float: right;
+    width: 40%;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KodeCamp | SignUp Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        
+        <div class="column form">
+            <div class="header">
+                <h1>Sign Up</h1>
+            </div>
+            <form action="signup.php" method="post">
+                <div>
+                    <label for="firstname">FirstName</label><br>
+                    <input type="text" name="firstname"  required><br>
+                    <label for="lastname">LastName</label><br>
+                <input type="text" name="lastname"  required>
+                </div>
+                <label for="email">Email</label><br>
+                <input type="email" name="email"  required>
+                <div>
+                    <label for="gender">Gender</label><br>
+                    <input type="checkbox" name="gender" value="Male" checked> Male<br>
+                    <input type="checkbox" name="gender" value="Female"> Female<br>
+                   <input type="checkbox" name="gender" value="Others" > Others<br>
+                </div>
+                <div>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password"  required><br>
+                    <label for="confirm_password">Confirm Password</label><br>
+                <input type="password" name="confirm_password"  required>
+                </div>
+                <div>
+                    <label for="education">educational level</label><br>
+                    <input type="text" name="education" ><br>
+                    <label for="experience_level">experience level</label><br>
+                    <input type="text" name="experience_level" >
+                </div>
+                <label for="tell_us">Tell Us About Yourself</label><br>
+                <textarea name="tell_us" form="usrform"></textarea><br>
+                <input type="submit" name="submit" value="Create account">
+            </form>
+        </div>
+        <div class="column image">
+         <img src="./kode.jpg" alt="photo">
+        </div>
+
+    </div>
+    
+   
+</body>
+</html>
